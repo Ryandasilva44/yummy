@@ -89,11 +89,16 @@ const Testimonials: React.FC = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 padding: ".4rem",
+                
                
               }}
             >
               <Box
                 sx={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignIttmes: "center",
                   position: "relative",
                   fontStyle: "italic",
                   marginBottom: "1rem",
@@ -101,6 +106,7 @@ const Testimonials: React.FC = () => {
                   borderRadius: "8px",
                   boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
                   padding: "1rem",
+                  
                 }}
               >
                 <BiSolidQuoteAltLeft
