@@ -6,6 +6,7 @@ import { FaStar } from "react-icons/fa";
 import imageTestimonials1 from "../assets/imagem-menu-7.jpg";
 import imageTestimonials2 from "../assets/imagem-menu-8.jpg";
 import imageTestimonials3 from "../assets/imagem-menu-9.jpg";
+import imageTestimonials4 from "../assets/imagem-menu-12.jpg";
 
 const testimonials = [
   {
@@ -29,6 +30,14 @@ const testimonials = [
     name: "JENA KARLIS",
     position: "STORE OWNER",
   },
+
+  {
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia consectetur quaerat labore molestias dolore odit.",
+    image: imageTestimonials4,
+    name: "Ryan",
+    position: "Director",
+  },
 ];
 
 const Testimonials: React.FC = () => {
@@ -39,8 +48,9 @@ const Testimonials: React.FC = () => {
         marginBottom: "2rem",
         marginTop: "2rem",
         background: theme.palette.secondary.main,
-        padding: "2rem 1rem",
+        padding: "3rem",
         borderRadius: "8px",
+        
       }}
     >
       <Typography
@@ -72,6 +82,9 @@ const Testimonials: React.FC = () => {
           display: "flex",
           flexDirection: { xs: "column", sm: "row" },
           justifyContent: "center",
+          alignItems: "center",
+          gap: ".5rem",
+          
         }}
       >
         <Grid container spacing={4}>
